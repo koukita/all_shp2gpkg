@@ -1,0 +1,18 @@
+[general]
+name=all_shp2gpkg すべてのシェープファイルをGeopackageに置換え
+qgisMinimumVersion=3.44
+qgisMaximumVersion=4.99
+description=All shapefiles in the currently displayed project will be replaced with GeoPackages. The layer order, styles, and attribute form settings will be preserved, but relationships will not be retained.
+about=現在表示しているプロジェクトのシェープファイルをすべてGeopackageに置き換えます。レイヤの順序、スタイル、属性フォームの設定は引き継がれますが、リレーションは引き継がれません。
+version=0.9.0
+supportsQt6=True
+author=koichi kita
+email=qgisshitumon@gmail.com
+homepage=https://github.com/koukita/all_shp2gpkg
+tracker=https://github.com/koukita/all_shp2gpkg/issues
+repository=https://github.com/koukita/all_shp2gpkg
+tags=python, processing, shapefile, GeoPackage,
+
+[files]
+icon=icon.png
+
